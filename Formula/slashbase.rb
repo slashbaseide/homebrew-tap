@@ -4,11 +4,11 @@ class Slashbase < Formula
   license "Apache-2.0"
 
   if Hardware::CPU.intel?
-    url "https://github.com/slashbaseide/slashbase/releases/download/v0.4.1/mac_intel_chip.zip"
-    sha256 "43ee0bfe0441b007651593ba97e84b826b238589978b78ffc41e254b24a2348f"
+    url "https://github.com/slashbaseide/slashbase/releases/download/v0.5.0/mac_intel_chip.zip"
+    sha256 "c5273a667a6a2aa19533a1df19bc256f21bd487772c526b3981db219f97a019c"
   else
-    url "https://github.com/slashbaseide/slashbase/releases/download/v0.4.1/mac_apple_chip.zip"
-    sha256 "9c6559ad1058746d496fd3a838b9d1ace812df28983eee8d670325076c319095"
+    url "https://github.com/slashbaseide/slashbase/releases/download/v0.5.0/mac_apple_chip.zip"
+    sha256 "a4f5bdc6360448a072df20bb4fcecd6f2bbff982208b7ef5cd98d843bacf7288"
   end
 
   def install
