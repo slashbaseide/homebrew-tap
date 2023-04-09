@@ -7,7 +7,6 @@ cask "slashbase" do
   name "Slashbase"
   desc "Open-source Modern database IDE for dev/data workflows"
   homepage "https://slashbase.com/"
-  license "Apache-2.0"
   
   livecheck do
     url "https://github.com/slashbaseide/slashbase/releases/latest/download/#{arch}.dmg"
