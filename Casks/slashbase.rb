@@ -1,4 +1,4 @@
-cask "Slashbase" do
+cask "slashbase" do
   arch arm: "mac_apple_chip", intel: "mac_intel_chip"
   version "v0.8.3"
   sha256 :no_check
