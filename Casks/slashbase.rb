@@ -1,6 +1,6 @@
 cask "slashbase" do
   arch arm: "mac_apple_chip", intel: "mac_intel_chip"
-  version "v0.8.4"
+  version "v0.10.2"
   sha256 :no_check
   
   url  "https://github.com/slashbaseide/slashbase/releases/download/#{version}/#{arch}.dmg"
